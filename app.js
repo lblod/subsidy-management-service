@@ -12,7 +12,7 @@ app.use(bodyParser.text({
  * @returns {string} 200 - Service health status
  */
 app.get('/', (req, res) => {
-  res.send('subsidy-management-service is healthy and working! :)');
+  res.send('subsidy-applications-retrieval-service is healthy and working! :)');
 });
 
 /**

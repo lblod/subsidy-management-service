@@ -1,5 +1,5 @@
 {
-  "name": "subsidy-management-service",
+  "name": "subsidy-applications-retrieval-service",
   "version": "0.0.1",
   "description": "Service to manage subsidies, used for the internal management tool",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lblod/subsidy-management-service.git"
+    "url": "git+https://github.com/lblod/subsidy-applications-retrieval-service.git"
   },
   "author": "lblod",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lblod/subsidy-management-service/issues"
+    "url": "https://github.com/lblod/subsidy-applications-retrieval-service/issues"
   },
-  "homepage": "https://github.com/lblod/subsidy-management-service#readme",
+  "homepage": "https://github.com/lblod/subsidy-applications-retrieval-service#readme",
   "dependencies": {
     "@lblod/mu-auth-sudo": "^0.6.1",
     "body-parser": "^1.20.0",

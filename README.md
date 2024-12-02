@@ -1,4 +1,4 @@
-# subsidy-management-service
+# subsidy-applications-retrieval-service
 
 Service to manage subsidies, used for the internal management tool.
 
@@ -17,9 +17,9 @@ version: '3.4'
 
 services:
   subsidy-management:
-    image: lblod/subsidy-management-service
+    image: lblod/subsidy-applications-retrieval-service
     volumes:
-      - ./config/subsidy-application-management:/config
+      - ./config/subsidy-applications-retrieval-service:/config
 
 ```
 
@@ -33,6 +33,6 @@ services:
     ports:
       - 8888:80
     volumes:
-      - /home/username/subsidy-management-service/:/app/ # Update this to the absolute path of the subsidy-management-service folder
+      - /home/username/subsidy-applications-retrieval-service/:/app/ # Update this to the absolute path of the subsidy-applications-retrieval-service folder
       - ./config/subsidy-application-management:/config # Links to subsidy forms
 ```
